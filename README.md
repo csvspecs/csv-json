@@ -15,6 +15,14 @@ _CSV (Line-by-Line) Records with JSON Encoding Rules - A Modern (Simple) Tabular
 3,"Sue","Bigsby, 345 Carnival, WA 23009",false
 ```
 
+```
+# "Vanilla" CSV <3 JSON (Pretty Printed)
+
+1, "John", "12 Totem Rd. Aspen",            true
+2, "Bob",  null,                            false
+3, "Sue", "Bigsby, 345 Carnival, WA 23009", false
+```
+
 or
 
 ```
