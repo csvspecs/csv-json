@@ -3,3 +3,7 @@
 
 title: "CSV <3 JSON Format"
 
+
+plugins:
+- jekyll-titles-from-headings
+
