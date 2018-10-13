@@ -1,4 +1,5 @@
-# CSV <3 JSON Format 
+# CSV <3 JSON Format
+ 
 
 _CSV (Line-by-Line) Records with JSON Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More_
 
