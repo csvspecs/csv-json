@@ -125,7 +125,7 @@ end
 
 
 
-## Inspirtation / Heritage / Alternatives
+## Inspiration / Heritage / Alternatives
 
 ### JSON Array Line by Line
 
