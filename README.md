@@ -4,6 +4,66 @@ _CSV (Line-by-Line) Records with JSON Encoding Rules - A Modern (Simple) Tabular
 
 
 
+## CSV <3 JSON By Example
+
+
+```
+# "Vanilla" CSV <3 JSON
+
+1,"John","12 Totem Rd. Aspen",true
+2,"Bob",null,false
+3,"Sue","Bigsby, 345 Carnival, WA 23009",false
+```
+
+or
+
+```
+# CSV <3 JSON with header / headers row
+
+"id","name","address","regular"
+1,"John","12 Totem Rd. Aspen",true
+2,"Bob",null,false
+3,"Sue","Bigsby, 345 Carnival, WA 23009",false
+```
+
+or
+
+```
+# CSV <3 JSON with values containing quotes and commas
+
+"id","name","address","regular"
+1,"John","12 Totem Rd., Aspen",true
+2,"Bob",null,false
+3,"Sue","\"Bigsby\", 345 Carnival, WA 23009",false
+```
+
+or
+
+```
+# CSV <3 JSON with array values
+
+1,"directions",["north","south","east","west"]
+2,"colors",["red","green","blue"]
+3,"drinks",["soda","water","tea","coffe"]
+4,"spells",[]
+```	
+
+or
+
+```
+# CSV with all kinds of values
+
+"index","value1","value2"
+"number",1,2
+"boolean",false,true
+"null",null,"non null"
+"array of numbers",[1],[1,2]
+"simple object",{"a": 1},{"a":1, "b":2}
+"array with mixed objects",[1,null,"ball"],[2,{"a": 10, "b": 20},"cube"]
+"string with quotes","a\"b","alert(\"Hi!\")"
+"string with bell&newlines","bell is \u0007","multi\nline\ntext"
+```
+
 
 
 
@@ -43,23 +103,24 @@ end
 ```
 
 
-## Inspirtation / Heritage
+
+## Inspirtation / Heritage / Alternatives
 
 ### JSON Array Line by Line
 
-- CSVJSON Format, see <> and
+- CSVJSON Format, see <http://csvjson.org>
   - What's differnt?
     - No comments, comments, comments.
-    - Uses a (simple ad-hoc) inline (optional) header schema format e.g. ``
+    - Uses a (simple ad-hoc) inline (optional) header schema format e.g. `{"field":"id","type":"int"},{"field":"name","type":"string"}, ...`
+    
     
 ### JSON Value(s) Line by Line
 
-- JSON Lines
-- Newline Delimited JSON (NDJSON)
+- JSON Lines, see <http://jsonlines.org>
+- Newline Delimited JSON (NDJSON), see <http://ndjson.org>
 
 
 
 ## License
 
 The CSV <3 JSON format is dedicated to the public domain.
-
