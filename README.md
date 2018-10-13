@@ -76,9 +76,19 @@ or
 
 
 
+## Frequently Asked Questions (FAQ) and Answers
+
+### Q: What's the recommended file type extension for CSV <3 JSON files?
+
+The recommended file format for CSV <3 JSON files is `.csv` :-) or use `.json.csv` (to highlight 
+the fact of the JSON encoding rules).
 
 
-## No CSV <3 JSON Parser in Your Language? Do-It-Yourself (DIY)
+
+
+
+## Do-It-Yourself (DIY) - No CSV <3 JSON Parser in Your Language? - Build Your Own 
+
 
 Build your own parser:
 
