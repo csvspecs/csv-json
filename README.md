@@ -145,3 +145,10 @@ end
 ## License
 
 The CSV <3 JSON format is dedicated to the public domain.
+
+
+
+## Request for Comments (RFC)
+
+Please post your comments to the [wwwmake forum](http://groups.google.com/group/wwwmake).
+Thanks!
